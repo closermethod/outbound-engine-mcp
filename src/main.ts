@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /**
  * Outbound Engine MCP Server v1.0
  * By Elisabeth Hitz — the cold-outreach method behind The Outbound Engine.

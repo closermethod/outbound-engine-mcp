@@ -1,6 +1,6 @@
 {
   "name": "outbound-engine-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Outbound Engine MCP for AI agents and creators. One cold-outreach engine, any target: brand deals, UGC, newsletter sponsorships, jobs, podcasts. HOOK/BRIDGE/SOFT-ASK structuring, message auditing, 5-step follow-up ladder, reply playbook, 3-option pricing menu, red-flag detection.",
   "main": "dist/main.js",
   "type": "module",
@@ -9,7 +9,17 @@
     "start": "node dist/main.js",
     "dev": "npx ts-node src/main.ts"
   },
-  "keywords": ["mcp", "outbound", "cold-outreach", "creator-economy", "brand-deals", "ugc", "pitching", "ai-agent", "sales"],
+  "keywords": [
+    "mcp",
+    "outbound",
+    "cold-outreach",
+    "creator-economy",
+    "brand-deals",
+    "ugc",
+    "pitching",
+    "ai-agent",
+    "sales"
+  ],
   "author": "Elisabeth Hitz",
   "license": "MIT",
   "dependencies": {
@@ -20,5 +30,14 @@
     "typescript": "^5.3.0",
     "ts-node": "^10.9.0"
   },
-  "engines": { "node": ">=18.0.0" }
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "bin": {
+    "outbound-engine-mcp": "dist/main.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
 }
