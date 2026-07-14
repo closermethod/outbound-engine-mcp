@@ -1,6 +1,6 @@
 {
   "name": "outbound-engine-mcp",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Outbound Engine MCP for AI agents and creators. One cold-outreach engine, any target: brand deals, UGC, newsletter sponsorships, jobs, podcasts. HOOK/BRIDGE/SOFT-ASK structuring, message auditing, 5-step follow-up ladder, reply playbook, 3-option pricing menu, red-flag detection.",
   "main": "dist/main.js",
   "type": "module",
@@ -39,5 +39,6 @@
   "files": [
     "dist",
     "README.md"
-  ]
+  ],
+  "mcpName": "io.github.closermethod/outbound-engine-mcp"
 }

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.closermethod/outbound-engine-mcp",
+  "description": "One cold-outreach engine for any target: HOOK/BRIDGE/SOFT-ASK, follow-up ladder, reply playbook.",
+  "repository": {
+    "url": "https://github.com/closermethod/outbound-engine-mcp",
+    "source": "github"
+  },
+  "version": "1.0.2",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "outbound-engine-mcp",
+      "version": "1.0.2",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
